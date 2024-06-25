@@ -261,6 +261,10 @@
     color: var(--bs-white) !important;
 }
 
+.about .tab-class .nav .middle-item {
+    margin-left: 0px !important;
+}
+
 /*** About End ***/
 
 /*** Service Start ***/
@@ -501,6 +505,17 @@
 .event .event-carousel .event-item img {
     height: 400px;
     object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .event .event-item {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .event .event-item img {
+        margin: 0 auto;
+    }
 }
 /*** Events End ***/
 
